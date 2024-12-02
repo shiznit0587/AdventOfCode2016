@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42EE7DC1DEFC9E9009DD533 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D42EE7DB1DEFC9E9009DD533 /* main.cpp */; };
+		D42EE7E31DEFCB28009DD533 /* Day1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D42EE7E21DEFCB28009DD533 /* Day1.cpp */; };
+		D42EE7E51DEFCF01009DD533 /* FileUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D42EE7E41DEFCF01009DD533 /* FileUtil.cpp */; };
+		D43A05E71E12E41F00C06F59 /* Day17.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43A05E51E12E41F00C06F59 /* Day17.cpp */; };
+		D43A05EA1E1360E800C06F59 /* Day18.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43A05E81E1360E800C06F59 /* Day18.cpp */; };
+		D43A05ED1E13EBF700C06F59 /* Day19.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43A05EB1E13EBF700C06F59 /* Day19.cpp */; };
+		D43A05F01E155F6400C06F59 /* Day20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43A05EE1E155F6400C06F59 /* Day20.cpp */; };
+		D43A05F41E15733800C06F59 /* Day21.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43A05F21E15733800C06F59 /* Day21.cpp */; };
+		D43A05F81E16B50900C06F59 /* Day22.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43A05F61E16B50900C06F59 /* Day22.cpp */; };
+		D43A05FC1E16DCAA00C06F59 /* Day23.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43A05FA1E16DCAA00C06F59 /* Day23.cpp */; };
+		D43A06001E16E15A00C06F59 /* Assembunny.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D43A05FE1E16E15A00C06F59 /* Assembunny.cpp */; };
+		D46E3DE61E0A2B880046EE1E /* Day16.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D46E3DE41E0A2B880046EE1E /* Day16.cpp */; };
+		D48EBA831DF121E7001FD8DB /* Day2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D48EBA821DF121E7001FD8DB /* Day2.cpp */; };
+		D49809951E0994340015434B /* Day15.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D49809931E0994340015434B /* Day15.cpp */; };
+		D4A464F81E17EA3B005D291E /* Day24.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4A464F61E17EA3B005D291E /* Day24.cpp */; };
+		D4BCCAE01E039C2B00553CFE /* Day12.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4BCCADE1E039C2B00553CFE /* Day12.cpp */; };
+		D4BCCAE41E04DB6200553CFE /* Day13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4BCCAE21E04DB6200553CFE /* Day13.cpp */; };
+		D4BCCAE71E08232900553CFE /* Day14.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4BCCAE51E08232900553CFE /* Day14.cpp */; };
+		D4CDA2831DF33B95008EFFE2 /* Day3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2821DF33B95008EFFE2 /* Day3.cpp */; };
+		D4CDA2871DF36367008EFFE2 /* FileUtilTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2861DF36367008EFFE2 /* FileUtilTest.cpp */; };
+		D4CDA2931DF37DA9008EFFE2 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2911DF37DA9008EFFE2 /* Utils.cpp */; };
+		D4CDA2961DF496EA008EFFE2 /* Day4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2941DF496EA008EFFE2 /* Day4.cpp */; };
+		D4CDA29A1DF657EA008EFFE2 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2991DF657EA008EFFE2 /* md5.cpp */; };
+		D4CDA29D1DF65896008EFFE2 /* Day5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA29B1DF65896008EFFE2 /* Day5.cpp */; };
+		D4CDA2A01DF664CF008EFFE2 /* Day6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA29E1DF664CF008EFFE2 /* Day6.cpp */; };
+		D4CDA2A41DF7CBC3008EFFE2 /* Day7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2A21DF7CBC3008EFFE2 /* Day7.cpp */; };
+		D4CDA2A91DF84EBB008EFFE2 /* Day8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2A71DF84EBB008EFFE2 /* Day8.cpp */; };
+		D4CDA2AC1DFE1B19008EFFE2 /* Day9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2AA1DFE1B19008EFFE2 /* Day9.cpp */; };
+		D4CDA2B01DFF1D06008EFFE2 /* Day10.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2AE1DFF1D06008EFFE2 /* Day10.cpp */; };
+		D4CDA2B41DFF8BDD008EFFE2 /* Day11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4CDA2B21DFF8BDD008EFFE2 /* Day11.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D42EE7D61DEFC9E9009DD533 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D42EE7D81DEFC9E9009DD533 /* AdventOfCode2016 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventOfCode2016; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42EE7DB1DEFC9E9009DD533 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D42EE7E21DEFCB28009DD533 /* Day1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day1.cpp; sourceTree = "<group>"; };
+		D42EE7E41DEFCF01009DD533 /* FileUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtil.cpp; sourceTree = "<group>"; };
+		D43A05E51E12E41F00C06F59 /* Day17.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day17.cpp; sourceTree = "<group>"; };
+		D43A05E61E12E41F00C06F59 /* Day17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day17.h; sourceTree = "<group>"; };
+		D43A05E81E1360E800C06F59 /* Day18.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day18.cpp; sourceTree = "<group>"; };
+		D43A05E91E1360E800C06F59 /* Day18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day18.h; sourceTree = "<group>"; };
+		D43A05EB1E13EBF700C06F59 /* Day19.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day19.cpp; sourceTree = "<group>"; };
+		D43A05EC1E13EBF700C06F59 /* Day19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day19.h; sourceTree = "<group>"; };
+		D43A05EE1E155F6400C06F59 /* Day20.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day20.cpp; sourceTree = "<group>"; };
+		D43A05EF1E155F6400C06F59 /* Day20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day20.h; sourceTree = "<group>"; };
+		D43A05F11E155FD300C06F59 /* day20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day20.txt; path = AdventOfCode2016/inputs/day20.txt; sourceTree = "<group>"; };
+		D43A05F21E15733800C06F59 /* Day21.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day21.cpp; sourceTree = "<group>"; };
+		D43A05F31E15733800C06F59 /* Day21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day21.h; sourceTree = "<group>"; };
+		D43A05F51E157F6900C06F59 /* day21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day21.txt; path = AdventOfCode2016/inputs/day21.txt; sourceTree = "<group>"; };
+		D43A05F61E16B50900C06F59 /* Day22.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day22.cpp; sourceTree = "<group>"; };
+		D43A05F71E16B50900C06F59 /* Day22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day22.h; sourceTree = "<group>"; };
+		D43A05F91E16B59600C06F59 /* day22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day22.txt; path = AdventOfCode2016/inputs/day22.txt; sourceTree = "<group>"; };
+		D43A05FA1E16DCAA00C06F59 /* Day23.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day23.cpp; sourceTree = "<group>"; };
+		D43A05FB1E16DCAA00C06F59 /* Day23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day23.h; sourceTree = "<group>"; };
+		D43A05FD1E16DD2300C06F59 /* day23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day23.txt; path = AdventOfCode2016/inputs/day23.txt; sourceTree = "<group>"; };
+		D43A05FE1E16E15A00C06F59 /* Assembunny.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Assembunny.cpp; sourceTree = "<group>"; };
+		D43A05FF1E16E15A00C06F59 /* Assembunny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assembunny.h; sourceTree = "<group>"; };
+		D46E3DE41E0A2B880046EE1E /* Day16.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day16.cpp; sourceTree = "<group>"; };
+		D46E3DE51E0A2B880046EE1E /* Day16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day16.h; sourceTree = "<group>"; };
+		D48EBA821DF121E7001FD8DB /* Day2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day2.cpp; sourceTree = "<group>"; };
+		D49809931E0994340015434B /* Day15.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day15.cpp; sourceTree = "<group>"; };
+		D49809941E0994340015434B /* Day15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day15.h; sourceTree = "<group>"; };
+		D4A464F61E17EA3B005D291E /* Day24.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day24.cpp; sourceTree = "<group>"; };
+		D4A464F71E17EA3B005D291E /* Day24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day24.h; sourceTree = "<group>"; };
+		D4A464F91E17EACB005D291E /* day24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day24.txt; path = AdventOfCode2016/inputs/day24.txt; sourceTree = "<group>"; };
+		D4BCCADE1E039C2B00553CFE /* Day12.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day12.cpp; sourceTree = "<group>"; };
+		D4BCCADF1E039C2B00553CFE /* Day12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day12.h; sourceTree = "<group>"; };
+		D4BCCAE11E039E0E00553CFE /* day12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day12.txt; path = AdventOfCode2016/inputs/day12.txt; sourceTree = "<group>"; };
+		D4BCCAE21E04DB6200553CFE /* Day13.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day13.cpp; sourceTree = "<group>"; };
+		D4BCCAE31E04DB6200553CFE /* Day13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day13.h; sourceTree = "<group>"; };
+		D4BCCAE51E08232900553CFE /* Day14.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day14.cpp; sourceTree = "<group>"; };
+		D4BCCAE61E08232900553CFE /* Day14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day14.h; sourceTree = "<group>"; };
+		D4CDA2821DF33B95008EFFE2 /* Day3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day3.cpp; sourceTree = "<group>"; };
+		D4CDA2841DF33C2D008EFFE2 /* day3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day3.txt; path = AdventOfCode2016/inputs/day3.txt; sourceTree = "<group>"; };
+		D4CDA2861DF36367008EFFE2 /* FileUtilTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileUtilTest.cpp; sourceTree = "<group>"; };
+		D4CDA2881DF364C0008EFFE2 /* day0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day0.txt; path = AdventOfCode2016/inputs/day0.txt; sourceTree = "<group>"; };
+		D4CDA2891DF3668C008EFFE2 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		D4CDA28A1DF36748008EFFE2 /* FileUtilTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtilTest.h; sourceTree = "<group>"; };
+		D4CDA28B1DF36A4A008EFFE2 /* Day1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day1.h; sourceTree = "<group>"; };
+		D4CDA28C1DF36A9C008EFFE2 /* includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = includes.h; sourceTree = "<group>"; };
+		D4CDA28D1DF36C15008EFFE2 /* Day2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day2.h; sourceTree = "<group>"; };
+		D4CDA28E1DF36D5E008EFFE2 /* day2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day2.txt; path = AdventOfCode2016/inputs/day2.txt; sourceTree = "<group>"; };
+		D4CDA28F1DF37158008EFFE2 /* Day3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day3.h; sourceTree = "<group>"; };
+		D4CDA2901DF375FF008EFFE2 /* day1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day1.txt; path = AdventOfCode2016/inputs/day1.txt; sourceTree = "<group>"; };
+		D4CDA2911DF37DA9008EFFE2 /* Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		D4CDA2921DF37DA9008EFFE2 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		D4CDA2941DF496EA008EFFE2 /* Day4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day4.cpp; sourceTree = "<group>"; };
+		D4CDA2951DF496EA008EFFE2 /* Day4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day4.h; sourceTree = "<group>"; };
+		D4CDA2971DF49BD7008EFFE2 /* day4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day4.txt; path = AdventOfCode2016/inputs/day4.txt; sourceTree = "<group>"; };
+		D4CDA2981DF657C7008EFFE2 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		D4CDA2991DF657EA008EFFE2 /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		D4CDA29B1DF65896008EFFE2 /* Day5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day5.cpp; sourceTree = "<group>"; };
+		D4CDA29C1DF65896008EFFE2 /* Day5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day5.h; sourceTree = "<group>"; };
+		D4CDA29E1DF664CF008EFFE2 /* Day6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day6.cpp; sourceTree = "<group>"; };
+		D4CDA29F1DF664CF008EFFE2 /* Day6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day6.h; sourceTree = "<group>"; };
+		D4CDA2A11DF686CE008EFFE2 /* day6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day6.txt; path = AdventOfCode2016/inputs/day6.txt; sourceTree = "<group>"; };
+		D4CDA2A21DF7CBC3008EFFE2 /* Day7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day7.cpp; sourceTree = "<group>"; };
+		D4CDA2A31DF7CBC3008EFFE2 /* Day7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day7.h; sourceTree = "<group>"; };
+		D4CDA2A51DF7CF28008EFFE2 /* day7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day7.txt; path = AdventOfCode2016/inputs/day7.txt; sourceTree = "<group>"; };
+		D4CDA2A61DF84EA2008EFFE2 /* day8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day8.txt; path = AdventOfCode2016/inputs/day8.txt; sourceTree = "<group>"; };
+		D4CDA2A71DF84EBB008EFFE2 /* Day8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day8.cpp; sourceTree = "<group>"; };
+		D4CDA2A81DF84EBB008EFFE2 /* Day8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day8.h; sourceTree = "<group>"; };
+		D4CDA2AA1DFE1B19008EFFE2 /* Day9.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day9.cpp; sourceTree = "<group>"; };
+		D4CDA2AB1DFE1B19008EFFE2 /* Day9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day9.h; sourceTree = "<group>"; };
+		D4CDA2AD1DFE1B88008EFFE2 /* day9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day9.txt; path = AdventOfCode2016/inputs/day9.txt; sourceTree = "<group>"; };
+		D4CDA2AE1DFF1D06008EFFE2 /* Day10.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day10.cpp; sourceTree = "<group>"; };
+		D4CDA2AF1DFF1D06008EFFE2 /* Day10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day10.h; sourceTree = "<group>"; };
+		D4CDA2B11DFF1E8F008EFFE2 /* day10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = day10.txt; path = AdventOfCode2016/inputs/day10.txt; sourceTree = "<group>"; };
+		D4CDA2B21DFF8BDD008EFFE2 /* Day11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day11.cpp; sourceTree = "<group>"; };
+		D4CDA2B31DFF8BDD008EFFE2 /* Day11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Day11.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42EE7D51DEFC9E9009DD533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42EE7CF1DEFC9E9009DD533 = {
+			isa = PBXGroup;
+			children = (
+				D42EE7DA1DEFC9E9009DD533 /* AdventOfCode2016 */,
+				D4CDA2851DF33E4C008EFFE2 /* inputs */,
+				D42EE7D91DEFC9E9009DD533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42EE7D91DEFC9E9009DD533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42EE7D81DEFC9E9009DD533 /* AdventOfCode2016 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42EE7DA1DEFC9E9009DD533 /* AdventOfCode2016 */ = {
+			isa = PBXGroup;
+			children = (
+				D4CDA28C1DF36A9C008EFFE2 /* includes.h */,
+				D42EE7DB1DEFC9E9009DD533 /* main.cpp */,
+				D4CDA28B1DF36A4A008EFFE2 /* Day1.h */,
+				D42EE7E21DEFCB28009DD533 /* Day1.cpp */,
+				D4CDA28D1DF36C15008EFFE2 /* Day2.h */,
+				D48EBA821DF121E7001FD8DB /* Day2.cpp */,
+				D4CDA28F1DF37158008EFFE2 /* Day3.h */,
+				D4CDA2821DF33B95008EFFE2 /* Day3.cpp */,
+				D4CDA2951DF496EA008EFFE2 /* Day4.h */,
+				D4CDA2941DF496EA008EFFE2 /* Day4.cpp */,
+				D4CDA29C1DF65896008EFFE2 /* Day5.h */,
+				D4CDA29B1DF65896008EFFE2 /* Day5.cpp */,
+				D4CDA29F1DF664CF008EFFE2 /* Day6.h */,
+				D4CDA29E1DF664CF008EFFE2 /* Day6.cpp */,
+				D4CDA2A31DF7CBC3008EFFE2 /* Day7.h */,
+				D4CDA2A21DF7CBC3008EFFE2 /* Day7.cpp */,
+				D4CDA2A81DF84EBB008EFFE2 /* Day8.h */,
+				D4CDA2A71DF84EBB008EFFE2 /* Day8.cpp */,
+				D4CDA2AB1DFE1B19008EFFE2 /* Day9.h */,
+				D4CDA2AA1DFE1B19008EFFE2 /* Day9.cpp */,
+				D4CDA2AF1DFF1D06008EFFE2 /* Day10.h */,
+				D4CDA2AE1DFF1D06008EFFE2 /* Day10.cpp */,
+				D4CDA2B31DFF8BDD008EFFE2 /* Day11.h */,
+				D4CDA2B21DFF8BDD008EFFE2 /* Day11.cpp */,
+				D4BCCADF1E039C2B00553CFE /* Day12.h */,
+				D4BCCADE1E039C2B00553CFE /* Day12.cpp */,
+				D4BCCAE31E04DB6200553CFE /* Day13.h */,
+				D4BCCAE21E04DB6200553CFE /* Day13.cpp */,
+				D4BCCAE61E08232900553CFE /* Day14.h */,
+				D4BCCAE51E08232900553CFE /* Day14.cpp */,
+				D49809941E0994340015434B /* Day15.h */,
+				D49809931E0994340015434B /* Day15.cpp */,
+				D46E3DE51E0A2B880046EE1E /* Day16.h */,
+				D46E3DE41E0A2B880046EE1E /* Day16.cpp */,
+				D43A05E61E12E41F00C06F59 /* Day17.h */,
+				D43A05E51E12E41F00C06F59 /* Day17.cpp */,
+				D43A05E91E1360E800C06F59 /* Day18.h */,
+				D43A05E81E1360E800C06F59 /* Day18.cpp */,
+				D43A05EC1E13EBF700C06F59 /* Day19.h */,
+				D43A05EB1E13EBF700C06F59 /* Day19.cpp */,
+				D43A05EF1E155F6400C06F59 /* Day20.h */,
+				D43A05EE1E155F6400C06F59 /* Day20.cpp */,
+				D43A05F31E15733800C06F59 /* Day21.h */,
+				D43A05F21E15733800C06F59 /* Day21.cpp */,
+				D43A05F71E16B50900C06F59 /* Day22.h */,
+				D43A05F61E16B50900C06F59 /* Day22.cpp */,
+				D43A05FB1E16DCAA00C06F59 /* Day23.h */,
+				D43A05FA1E16DCAA00C06F59 /* Day23.cpp */,
+				D4A464F71E17EA3B005D291E /* Day24.h */,
+				D4A464F61E17EA3B005D291E /* Day24.cpp */,
+				D43A05FF1E16E15A00C06F59 /* Assembunny.h */,
+				D43A05FE1E16E15A00C06F59 /* Assembunny.cpp */,
+				D4CDA2981DF657C7008EFFE2 /* md5.h */,
+				D4CDA2991DF657EA008EFFE2 /* md5.cpp */,
+				D4CDA2891DF3668C008EFFE2 /* FileUtil.h */,
+				D42EE7E41DEFCF01009DD533 /* FileUtil.cpp */,
+				D4CDA28A1DF36748008EFFE2 /* FileUtilTest.h */,
+				D4CDA2861DF36367008EFFE2 /* FileUtilTest.cpp */,
+				D4CDA2921DF37DA9008EFFE2 /* Utils.h */,
+				D4CDA2911DF37DA9008EFFE2 /* Utils.cpp */,
+			);
+			path = AdventOfCode2016;
+			sourceTree = "<group>";
+		};
+		D4CDA2851DF33E4C008EFFE2 /* inputs */ = {
+			isa = PBXGroup;
+			children = (
+				D4A464F91E17EACB005D291E /* day24.txt */,
+				D4CDA2881DF364C0008EFFE2 /* day0.txt */,
+				D4CDA2901DF375FF008EFFE2 /* day1.txt */,
+				D4CDA28E1DF36D5E008EFFE2 /* day2.txt */,
+				D4CDA2841DF33C2D008EFFE2 /* day3.txt */,
+				D4CDA2971DF49BD7008EFFE2 /* day4.txt */,
+				D4CDA2A11DF686CE008EFFE2 /* day6.txt */,
+				D4CDA2A51DF7CF28008EFFE2 /* day7.txt */,
+				D4CDA2A61DF84EA2008EFFE2 /* day8.txt */,
+				D4CDA2AD1DFE1B88008EFFE2 /* day9.txt */,
+				D4CDA2B11DFF1E8F008EFFE2 /* day10.txt */,
+				D4BCCAE11E039E0E00553CFE /* day12.txt */,
+				D43A05F11E155FD300C06F59 /* day20.txt */,
+				D43A05F51E157F6900C06F59 /* day21.txt */,
+				D43A05F91E16B59600C06F59 /* day22.txt */,
+				D43A05FD1E16DD2300C06F59 /* day23.txt */,
+			);
+			name = inputs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D42EE7D71DEFC9E9009DD533 /* AdventOfCode2016 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42EE7DF1DEFC9E9009DD533 /* Build configuration list for PBXNativeTarget "AdventOfCode2016" */;
+			buildPhases = (
+				D42EE7D41DEFC9E9009DD533 /* Sources */,
+				D42EE7D51DEFC9E9009DD533 /* Frameworks */,
+				D42EE7D61DEFC9E9009DD533 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventOfCode2016;
+			productName = AdventOfCode2016;
+			productReference = D42EE7D81DEFC9E9009DD533 /* AdventOfCode2016 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42EE7D01DEFC9E9009DD533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Philip Stachowski";
+				TargetAttributes = {
+					D42EE7D71DEFC9E9009DD533 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TDM6XXFJ4K;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D42EE7D31DEFC9E9009DD533 /* Build configuration list for PBXProject "AdventOfCode2016" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D42EE7CF1DEFC9E9009DD533;
+			productRefGroup = D42EE7D91DEFC9E9009DD533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42EE7D71DEFC9E9009DD533 /* AdventOfCode2016 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42EE7D41DEFC9E9009DD533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42EE7E31DEFCB28009DD533 /* Day1.cpp in Sources */,
+				D43A05FC1E16DCAA00C06F59 /* Day23.cpp in Sources */,
+				D4CDA2A01DF664CF008EFFE2 /* Day6.cpp in Sources */,
+				D43A05ED1E13EBF700C06F59 /* Day19.cpp in Sources */,
+				D48EBA831DF121E7001FD8DB /* Day2.cpp in Sources */,
+				D4CDA2931DF37DA9008EFFE2 /* Utils.cpp in Sources */,
+				D43A05F81E16B50900C06F59 /* Day22.cpp in Sources */,
+				D43A05F41E15733800C06F59 /* Day21.cpp in Sources */,
+				D4A464F81E17EA3B005D291E /* Day24.cpp in Sources */,
+				D4CDA29A1DF657EA008EFFE2 /* md5.cpp in Sources */,
+				D46E3DE61E0A2B880046EE1E /* Day16.cpp in Sources */,
+				D4CDA29D1DF65896008EFFE2 /* Day5.cpp in Sources */,
+				D49809951E0994340015434B /* Day15.cpp in Sources */,
+				D4CDA2A41DF7CBC3008EFFE2 /* Day7.cpp in Sources */,
+				D4CDA2A91DF84EBB008EFFE2 /* Day8.cpp in Sources */,
+				D43A05E71E12E41F00C06F59 /* Day17.cpp in Sources */,
+				D43A05EA1E1360E800C06F59 /* Day18.cpp in Sources */,
+				D4CDA2961DF496EA008EFFE2 /* Day4.cpp in Sources */,
+				D43A06001E16E15A00C06F59 /* Assembunny.cpp in Sources */,
+				D4BCCAE01E039C2B00553CFE /* Day12.cpp in Sources */,
+				D42EE7E51DEFCF01009DD533 /* FileUtil.cpp in Sources */,
+				D4CDA2B41DFF8BDD008EFFE2 /* Day11.cpp in Sources */,
+				D42EE7DC1DEFC9E9009DD533 /* main.cpp in Sources */,
+				D4CDA2B01DFF1D06008EFFE2 /* Day10.cpp in Sources */,
+				D4BCCAE41E04DB6200553CFE /* Day13.cpp in Sources */,
+				D4BCCAE71E08232900553CFE /* Day14.cpp in Sources */,
+				D43A05F01E155F6400C06F59 /* Day20.cpp in Sources */,
+				D4CDA2831DF33B95008EFFE2 /* Day3.cpp in Sources */,
+				D4CDA2AC1DFE1B19008EFFE2 /* Day9.cpp in Sources */,
+				D4CDA2871DF36367008EFFE2 /* FileUtilTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D42EE7DD1DEFC9E9009DD533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D42EE7DE1DEFC9E9009DD533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D42EE7E01DEFC9E9009DD533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TDM6XXFJ4K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D42EE7E11DEFC9E9009DD533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = TDM6XXFJ4K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42EE7D31DEFC9E9009DD533 /* Build configuration list for PBXProject "AdventOfCode2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42EE7DD1DEFC9E9009DD533 /* Debug */,
+				D42EE7DE1DEFC9E9009DD533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42EE7DF1DEFC9E9009DD533 /* Build configuration list for PBXNativeTarget "AdventOfCode2016" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42EE7E01DEFC9E9009DD533 /* Debug */,
+				D42EE7E11DEFC9E9009DD533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42EE7D01DEFC9E9009DD533 /* Project object */;
+}
